@@ -11,7 +11,7 @@ This portfolio is used to deploy porjects for ease of access of potential employ
 
 ADD SCREENSHOT
 
-![portfolio screenshot](images/portfolio%20screenshot.png)
+![portfolio screenshot](images/Screenshot%202022-12-02%20183811.png)
 
 ## Link
 
