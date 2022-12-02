@@ -82,14 +82,7 @@ h1 {
 
 }
 
-.About-Me {
 
-    display: flex;
-    flex-wrap: wrap;
-
-
-
-}
 
 section header {
 
@@ -98,42 +91,49 @@ section header {
     align-items: center;
     font-size: 75px;
     padding-left: 80px;
-    padding-right: 10px;
+    padding-right: 75px;
     border-right: 4px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 350px;
 
 
 
 }
-.about-me-box{
-    display: inline;
-    flex-wrap: wrap;
-}
-
-.about-me-text {
-    display: inline;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 1%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-
-.work-box{
-
+.box{
     display: flex;
-    flex-wrap: wrap;
+    
+    
+}
 
+.about-me-text{
+
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 1200px;
+}
+
+
+
+.big-img-container {
+
+
+
+    position: relative;
+    
+    width: 1200px;
+
+    margin-left: 20px;
 }
 
 .img-container {
 
     position: relative;
+    justify-content: center;
 
-    width: 400px;
+    width: 600px;
 
-    margin-left: 20px;
+    margin-left: 8px;
 
 }
 
@@ -186,16 +186,8 @@ width: 400%;
 
 }
 
-.contact-box{
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.about-me-box{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+
 
 
 .footer-links{
@@ -216,4 +208,16 @@ width: 400%;
 
 
 
-/*@media screen and (max-width: 992px)*/
+@media screen and (max-width: 992px){
+        .img-container{
+            display: flex;
+    flex-direction: column;
+
+    }
+
+    .big-img-container{
+display: flex;
+        flex-direction: column;
+    }
+
+}
